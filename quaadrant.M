@@ -1,6 +1,6 @@
 Quadrant color = 
-var CurrentX = SELECTEDVALUE(cr01c_research[cr01c_job(new_cr01c_job).mrst_analystactivetime])
-var CurrentY = SELECTEDVALUE(cr01c_research[cr01c_research(cr01c_researchid).mrst_timeanalyst])
+var CurrentX = SELECTEDVALUE(c[r(job).coll])
+var CurrentY = SELECTEDVALUE(r[rcc(id).colly])
 var AverageXValue = [avg_x]
 var AverageYValue = [avg_y]
 RETURN
